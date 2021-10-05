@@ -3,6 +3,26 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 800px){
+    body{
+         font-size: 100%;
+    }
+}
+@media (min-width: 800px){
+    body{
+        font-size: 50%;
+    }
+}
+@media (max-height: 350px){
+    body{
+       font-size: 100%;
+    }
+}
+@media (min-height: 350px){
+    body{
+        font-size: 50%;
+    }
+}
 /*---------Navigation------------*/
 #nav-bar
 {
